@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="toggleImage()" id="btn">show / hide</button>
+    <br>
+    <br>
+
+    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHBV9xDI_AEWgw3C9_mAdbfZ1At0lis9Lqcj_JFaAj8Zwj-2A2" alt="" id="myImage" style="display: none;">
+    
+    <script>
+        function toggleImage(){
+        var img = document.getElementById("myImage");
+        var btn = document.getElementById("btn");
+
+        if(img.style.display == "none"){
+            img.style.display = "block";
+            btn.innerText = "Hide";
+        }
+        else{
+            img.style.display = "none";
+            btn.innerText = "show"
+        }
+        }
+    </script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="toggleImage()" id="btn">show | hide</button><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4bYFpouAtMeGHzhAkugu3KRbMOosmgqSSTxQICw0O_p6fI4OS" alt="" id="myImage" style="display: none;">
+
+    <script>
+        function toggleImage(){
+            var img = document.getElementById("myImage");
+            var btn = document.getElementById("btn");
+
+            if(img.style.display == "none"){
+                img.style.display = "block";
+                btn.innerHTML = "Hide";
+            }
+            else{
+                img.style.display = "none";
+                btn.innerHTML = "Show";
+            }
+        }
+    </script>
+</body>
+</html>

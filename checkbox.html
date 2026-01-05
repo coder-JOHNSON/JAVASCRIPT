@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="checkEnable" onchange="checkInfo()">Enable | Disable
+
+    <dl>
+        <dt>Username</dt>
+        <dd>
+            <input type="text" name="" id="txtUsername">
+        </dd>
+    </dl>
+
+    <script>
+        function checkInfo(){
+            var checkBox = document.getElementById("checkEnable")
+            var txtBox = document.getElementById("txtUsername")
+
+
+        if(checkBox.checked == true){
+            txtBox.disabled = true
+        }
+        else{
+            txtBox.disabled = false
+        }
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" name="" id="checkEnable" onchange="checkInfo()"> Enable | Disabled
+    <dl>
+        <dt>Username</dt>
+        <dd>
+            <input type="text" name="" id="txtUsername">
+        </dd>
+    </dl>
+    
+    <script>
+        function checkInfo(){
+            var checkBox = document.getElementById("checkEnable")
+            var txtBox = document.getElementById("txtUsername")
+
+            if(checkBox.checked == true){
+                txtBox.disabled = true
+            }
+            else{
+                txtBox.disabled = false
+            }
+        }
+    </script>
+</body>
+</html>
